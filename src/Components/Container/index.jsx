@@ -15,8 +15,17 @@ export function Container() {
     return (
         <>
             <BoxContainer>
+                <Titulo>Olá Fulano!</Titulo>
                 <Box>
-                    <Titulo>Olá Fulano!</Titulo>
+                    <Card>
+                        <H2>Conta</H2>
+                        <TextCard>
+                            <Saldo>Saldo disponivel</Saldo>
+                            <Icon><ImLibrary /></Icon>
+                        </TextCard>
+
+                        <Btn><ImCheckmark /></Btn>
+                    </Card>
                     <Card>
                         <H2>Conta</H2>
                         <TextCard>

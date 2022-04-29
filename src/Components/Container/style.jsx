@@ -7,6 +7,9 @@ export const BoxContainer = styled.main`
 export const Box = styled.section`
     width: 80%; 
     margin: auto;
+    display: flex;
+    justify-content: center;
+    aling-items: center;
 `
 
 export const Card = styled.article`
@@ -15,6 +18,7 @@ export const Card = styled.article`
     box-shadow: 3px 2px 15px 4px #ccc;
     background-color: #fff;
     border-radius: 4px;
+    margin: 20px;
 `
 
 export const H2 = styled.h2`
