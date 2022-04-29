@@ -11,7 +11,7 @@ export const Globalstyle = createGlobalStyle`
         vertical-align: baseline;
     }
 
-    /* HTML5 display-role reset for older browsers */
+
     article,
     aside,
     details,

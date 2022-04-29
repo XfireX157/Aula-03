@@ -1,15 +1,23 @@
+import { CorFundo } from '../Cores/style'
+
 import styled from "styled-components";
 
 export const BoxContainer = styled.main`
     width: 100%;
     height: 100%;
+    margin-bottom: 11px;
 `
 export const Box = styled.section`
     width: 80%; 
     margin: auto;
     display: flex;
     justify-content: center;
-    aling-items: center;
+    align-items: center;
+
+    @media screen and (max-width: 800px){
+        flex-direction: column;
+       
+    }
 `
 
 export const Card = styled.article`
@@ -19,6 +27,11 @@ export const Card = styled.article`
     background-color: #fff;
     border-radius: 4px;
     margin: 20px;
+
+    @media screen and (max-width: 800px){
+        width: 70%
+    }
+
 `
 
 export const H2 = styled.h2`
@@ -30,8 +43,6 @@ export const H2 = styled.h2`
 `
 
 export const TextCard = styled.div`
-    display: flex;
-    aling-intens: center;
     margin: auto;
     margin-top: 20px;
 `
@@ -44,7 +55,7 @@ export const Saldo = styled.span`
 
 export const Icon = styled.span`
     font-size: 1.3rem;
-    margin-left: 20px;
+    margin-left: 10px;
     color: grey;
 `
 
@@ -53,7 +64,7 @@ export const Btn = styled.button`
     margin: auto;
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 45px;
     border-radius: 20px;
     padding: 19px 10px;
     cursor: pointer;
@@ -69,4 +80,18 @@ export const Btn = styled.button`
     }
 `
 
+export const SaldoUser = styled.p`
+    padding-top: 20px;
+    font-size: 1.8rem;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: grey;
+`
+
+export const Reais = styled.span`
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: ${CorFundo};
+    font-family: Montserrat;
+`
 

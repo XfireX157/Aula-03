@@ -10,4 +10,5 @@ const Titulo = styled.h1`
     margin: auto;
 `
 
+
 export default Titulo;

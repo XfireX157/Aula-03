@@ -9,6 +9,10 @@ export const Rodape = styled.footer`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: 800px){
+        position: relative;
+    }
 `
 
 export const Icons = styled.span`

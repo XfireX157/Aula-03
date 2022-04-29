@@ -10,6 +10,8 @@ import { Icon } from "./style";
 import { ImLibrary } from "react-icons/im"
 import { TextCard } from "./style";
 import { ImCheckmark } from "react-icons/im"
+import { SaldoUser } from "./style";
+import { Reais } from "./style";
 
 export function Container() {
     return (
@@ -23,6 +25,7 @@ export function Container() {
                             <Saldo>Saldo disponivel</Saldo>
                             <Icon><ImLibrary /></Icon>
                         </TextCard>
+                        <SaldoUser><Reais>R$</Reais> 0,00</SaldoUser>
 
                         <Btn><ImCheckmark /></Btn>
                     </Card>
@@ -32,10 +35,12 @@ export function Container() {
                             <Saldo>Saldo disponivel</Saldo>
                             <Icon><ImLibrary /></Icon>
                         </TextCard>
+                        <SaldoUser><Reais>R$</Reais> 0,00</SaldoUser>
 
                         <Btn><ImCheckmark /></Btn>
                     </Card>
                 </Box>
+
             </BoxContainer>
         </>
     );
