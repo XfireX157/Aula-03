@@ -8,6 +8,7 @@ const Titulo = styled.h1`
     font-size: 2rem;
     width: 80%;
     margin: auto;
+    color: ${({ theme }) => theme.Text};
 `
 
 

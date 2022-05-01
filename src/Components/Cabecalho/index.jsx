@@ -6,6 +6,8 @@ import { LogoImg } from './style'
 import { Logo } from "./style";
 
 export function Cabecalho() {
+
+
     return (
         <>
             <Headers>
@@ -17,6 +19,7 @@ export function Cabecalho() {
                     <BtnCabecalho primary>Ajuda</BtnCabecalho>
                     <BtnCabecalho>Sair</BtnCabecalho>
                 </div>
+
             </Headers>
         </>
     )

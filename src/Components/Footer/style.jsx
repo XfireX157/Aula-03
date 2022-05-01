@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const Rodape = styled.footer`
-    position: absolute;
-    bottom: 0;
+    position: relative;
     width: 100%;
-    height: auto;
+    height: 100%;
     background-color: #41d3be;
     display: flex;
     justify-content: space-between;

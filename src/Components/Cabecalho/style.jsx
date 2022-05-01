@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { CorFundo } from "../Cores/style";
 
+
 export const Headers = styled.header`
     width: 100%;
     height: 100%;
